@@ -1,0 +1,400 @@
+/* Start main css */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.7;
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-fullwidth {
+    width: 100% !important;
+}
+
+
+/* 1-Start Navbar */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 19px 0px 28px;
+    margin: 0 16px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 500ms ease 0s;
+}
+
+.bg-light {
+    background: transparent!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    outline: none;
+    color: black !important;
+    color: #FFF;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.navbar-brand img {
+    width: 130px;
+}
+
+.navbar-light .navbar-brand {
+    padding: 19px 0px 28px;
+    color: #054776;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    background-color: #FFF !important;
+    transition: all 0.9s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 100%;
+}
+
+.sticky .nav-link,
+.sticky .social-midea a {
+    color: #054776 !important;
+}
+
+.sticky .container {
+    width: 100% !important;
+}
+
+.content {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.baneer-2 .content {
+    position: relative !important;
+    margin-top: 20px;
+}
+
+.content h1 {
+    transition: none 0s ease 0s;
+    line-height: 62px;
+    border-width: 0px;
+    margin: 14px 0px 9px;
+    padding: 0px;
+    color: #FFF;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.content p {
+    transition: none 0s ease 0s;
+    line-height: 30px;
+    border-width: 0px;
+    margin: 0px;
+    padding-bottom: 60px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.social-midea {
+    padding: 19px 10px 28px;
+    color: #FFF;
+}
+
+.social-midea a {
+    color: #FFF;
+}
+
+
+/* 1-End Navbar */
+
+
+/* 2- Start Banner */
+
+.baneer {
+    background-image: url('../images/bg10.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 567px;
+}
+
+
+/* End Banner */
+
+
+/* 3- start about us */
+
+.About-us {
+    padding: 60px;
+}
+
+.About-us h3 {
+    color: #054776;
+}
+
+.About-us h4 {
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #054776;
+}
+
+.about-img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 3- End about us */
+
+
+/* start our_methods */
+
+.our_methods {
+    padding: 60px;
+    background-color: #f9f9f9;
+}
+
+.our_methods h3 {
+    color: #054776;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.our_methods h4 {
+    color: #054776;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.our_methods p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: black;
+}
+
+.WHY-text p {
+    text-align: left;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.OUR_STRATEGY {
+    padding: 60px;
+}
+
+.OUR_STRATEGY h3 {
+    color: #054776;
+}
+
+.OUR_STRATEGY p {
+    text-align: left;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.STRATEGY-img {
+    margin-top: 30px;
+}
+
+.STRATEGY-img img {
+    width: 80%;
+}
+
+
+/* start team */
+
+.Team {
+    padding: 60px;
+}
+
+.Team h3 {
+    color: #054776;
+    margin-bottom: 20px;
+}
+
+.team-titel {
+    padding: 20px
+}
+
+.team-titel p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: black;
+}
+
+.team-titel h4 {
+    color: #5b88a7;
+    font-weight: bold;
+}
+
+
+/* End team */
+
+
+/* 4-start services */
+
+.services {
+    background: #f9f9f9;
+    padding: 60px;
+}
+
+.services h2 {
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+}
+
+.services h2>span {
+    color: #054776;
+}
+
+.services .box i {
+    padding: 15px;
+    color: #054776;
+    box-shadow: 0px 1px 9px 0px rgba(236, 236, 236, 0.1);
+}
+
+.services .box:hover {
+    background: #FFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.services .box:hover i {
+    border: 2px solid #FFF;
+    color: #FFF;
+    transition: all 0.5s ease 0s;
+    background: #054776;
+}
+
+.services .box {
+    padding: 10px;
+    transition: all 0.9s ease 0s;
+}
+
+.box p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.box h5 {
+    padding: 10px;
+    font-weight: bold;
+    color: #333333;
+}
+
+
+/*4- End services */
+
+
+/* 
+startPartners */
+
+.Partners {
+    padding: 60px;
+}
+
+.Partners h2 {
+    color: #054776;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.owl-item img {
+    width: 200px !important;
+}
+
+.Partners p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+/*7- start contact */
+
+.contact_us {
+    color: #FFF !important;
+    padding: 60px;
+    position: relative;
+    background-image: url('../images/the-greek-campus.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact_us h4 {
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 20px;
+    color: #FFF!important;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact_us .form-control,
+.form-control::placeholder {
+    background: transparent;
+    color: #054776 !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #FFF;
+    ;
+}
+
+.contact_us h4>span {
+    color: #054776;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 7, 14, 0.48);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact_info .item {
+    margin-top: 30px;
+}
+
+.contact_us .contact-info .item .icon {
+    float: left;
+    font-size: 25px;
+    color: #054776;
+}
+
+.contact_us .contact-info .item .cont {
+    margin-left: 50px;
+}
+
+.contact-info .item .cont h6 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contact-info .item .cont p {
+    font-size: 13px;
+}
+
+
+/* End contact */
